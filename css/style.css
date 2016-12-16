@@ -1,0 +1,166 @@
+@media (max-width: 991px) {
+    #scrollBox {
+        position: fixed;
+        bottom: 0;
+        height: 3em;
+        width: 100%;
+        padding: .5em;
+        color: #36454F;
+        text-align: center;
+        background-color: lightgray;
+        z-index: 98;
+    }
+    #scrollBox li {
+        margin-right: 10px;
+        display: inline-block;
+    }
+    #description p {
+        padding: 2% 0% 2% 0%;
+        margin: 0;
+    }
+    #scrollBox a {
+        color: #36454F;
+    }
+    h3 {
+        padding-top: 40%;
+    }
+    #coordonnee {
+        background-color: white;
+        height: 100vh;
+    }
+}
+@media (min-width: 992px) {
+    #scrollBox {
+        position: fixed;
+        right: 0;
+        bottom: 50%;
+        transform: translateY(50%);
+        height: 7em;
+        width: 2em;
+        padding: .5em;
+        color: lightgray;
+        background-color: #36454F;
+    }
+    #scrollBox a {
+        color: lightgray;
+    }
+    #coordonneeButton{
+        position: relative;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+}
+#scrollBox ul {
+    padding: 0;
+}
+#scrollBox li {
+    list-style: none;
+}
+#pageUp,
+#pageDown {
+    cursor: pointer;
+}
+.navbar {
+    background-color: lightgray;
+}
+.navbar-brand {
+    padding-top: 10px;
+}
+#brandPic {
+    height: 30px;
+    margin-top: 0;
+    padding-top: 0;
+}
+#home {
+    padding-top: 6%;
+    text-align: center;
+    padding-bottom: 28%;
+}
+#home,
+#carousel,
+#myself,
+#contact {
+    height: 100vh;
+}
+#carousel {
+    padding-top: 6%;
+    background-color: lightgray;
+}
+h1 {
+    padding-bottom: 5%;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+.carousel-inner > .item > a > img {
+    width: 20px;
+}
+.carousel-indicators {
+    bottom: -10px !important;
+}
+.item p {
+    text-align: justify;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.item img {
+    width: 460px;
+    height: 345px;
+    cursor: pointer;
+}
+#about {
+    margin-top: 20%;
+}
+#imageZoomBox {
+    visibility: hidden;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1100;
+    background-color: rgba(34, 102, 102, .5);
+    cursor: pointer;
+}
+#pictureBox {
+    margin-top: 10vh;
+    height: 47vh;
+    background-color: #7A9F35;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+p a {
+    font-size: .8em;
+    font-style: italic;
+    text-decoration: none;
+}
+#description p {
+    visibility: hidden;
+    position: absolute;
+    padding: 2% 5% 2% 5%;
+    text-align: justify;
+    background-color: #36454F;
+    color: lightgray;
+}
+#about {
+    height: 100vh;
+}
+#contact {
+    background-color: lightgray;
+}
+.radio {
+    padding-top: 6%;
+    display: inline-block;
+    margin-left: 15%;
+}
+h3 {
+    margin-top: 20%;
+}
+#coordonneeButton {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
